@@ -1,0 +1,211 @@
+{
+	"variables": [],
+	"info": {
+		"name": "sary-app AWS",
+		"_postman_id": "dde024b2-79a9-8a3d-3e06-350955780d77",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add Question",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/question",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"description\":\" third question\"\n\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all questions",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/question",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"csrfmiddlewaretoken\":\"qXjgvsppCCuO8IS0cI806U1OykbFn5QTZRekszzf4qfu5lnpjJGAweIqVVAYJSVT\",\n\t\"title_book\":\"postman book\",\n\t\"author_book\":\"mehdi ben\",\n\t\"rating_book\": 5\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add comment to Question",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/comment-question",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"description\":\"first comment to question 3 \",\n     \"question\": 3\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all comments to questions",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/comment-question",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"csrfmiddlewaretoken\":\"qXjgvsppCCuO8IS0cI806U1OykbFn5QTZRekszzf4qfu5lnpjJGAweIqVVAYJSVT\",\n\t\"title_book\":\"postman book\",\n\t\"author_book\":\"mehdi ben\",\n\t\"rating_book\": 5\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "answer submitted question",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/answer",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"question\":3,\n\t\"description\":\"answer3 to question 3\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all answers",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/answer",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"csrfmiddlewaretoken\":\"qXjgvsppCCuO8IS0cI806U1OykbFn5QTZRekszzf4qfu5lnpjJGAweIqVVAYJSVT\",\n\t\"title_book\":\"postman book\",\n\t\"author_book\":\"mehdi ben\",\n\t\"rating_book\": 5\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "comment answer",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/comment-answer",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"description\":\"first comment to answer 3 \",\n     \"answer\": 3\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all comments to answers",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/comment-answer",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"csrfmiddlewaretoken\":\"qXjgvsppCCuO8IS0cI806U1OykbFn5QTZRekszzf4qfu5lnpjJGAweIqVVAYJSVT\",\n\t\"title_book\":\"postman book\",\n\t\"author_book\":\"mehdi ben\",\n\t\"rating_book\": 5\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tag submitted question",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/tag",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"description\":\" tag to question 3\",\n\t\"question\":3\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all tags",
+			"request": {
+				"url": "http://k8s-saryns-ingressd-574b138fbd-1745216866.us-west-2.elb.amazonaws.com/tag",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n\t\"csrfmiddlewaretoken\":\"qXjgvsppCCuO8IS0cI806U1OykbFn5QTZRekszzf4qfu5lnpjJGAweIqVVAYJSVT\",\n\t\"title_book\":\"postman book\",\n\t\"author_book\":\"mehdi ben\",\n\t\"rating_book\": 5\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
