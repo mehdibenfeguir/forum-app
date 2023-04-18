@@ -3,7 +3,7 @@
   "is_ramadhan": true,
   "media_background_image": "https://ia801708.us.archive.org/22/items/hafs_asim_mehdi_ben_feguir/__ia_thumb.jpg",
   "categories": ["القرآن الكريم", "المتون العلمية"],
-  "riwayat": ["قالون عن نافع", "حفص عن عاصم","البزي وقنبل عن ابن كثير"],
+  "riwayat": ["قالون عن نافع", "حفص عن عاصم","ابن كثير المكي براوييه"],
   "theme": [
     {
       "is_dark": false,
@@ -1422,13 +1422,13 @@
     },
     {
       "category": "القرآن",
-      "riwaya": "البزي وقنبل عن ابن كثير",
+      "riwaya": "ابن كثير المكي براوييه",
       "name": "سورة يوسف",
       "url": "https://archive.org/download/20230417_20230417_2204/%D9%A1%D9%A2%20-%20%D8%B3%D9%88%D8%B1%D8%A9%20%D9%8A%D9%88%D8%B3%D9%81.mp3"
     },
     {
       "category": "القرآن",
-      "riwaya": "البزي وقنبل عن ابن كثير",
+      "riwaya": "ابن كثير المكي براوييه",
       "name": "سورة الرعد",
       "url": "https://archive.org/download/20230417_20230417_2204/%D9%A1%D9%A3%20-%20%D8%B3%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B1%D8%B9%D8%AF.mp3"
     }
