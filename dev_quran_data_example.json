@@ -3,7 +3,7 @@
     "is_ramadhan": false,
     "media_background_image": "https://ia801708.us.archive.org/22/items/hafs_asim_mehdi_ben_feguir/__ia_thumb.jpg",
     "categories": [ "القرآن الكريم", "المتون العلمية"],
-    "riwayat": ["قالون عن نافع","حفص عن عاصم","ابن كثير المكي براوييه","ورش عن نافع","خلف عن حمزة","ورش"],
+    "riwayat": ["قالون عن نافع","حفص عن عاصم","ابن كثير المكي براوييه","ورش عن نافع","خلف عن حمزة","test"],
     "tasnif": ["التجويد", "النحو"],
     "theme": [
       {
@@ -1457,13 +1457,13 @@
       },
       {
         "category": "القرآن",
-        "riwaya": "ورش",
-        "name": "test",
+        "riwaya": "test",
+        "name": "test1",
         "url": "https://archive.org/download/20230418_20230418_2015/-%20%D8%B3%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D9%82%D8%B5%D8%B5%20-.mp3"
       },
       {
         "category": "القرآن",
-        "riwaya": "ورش",
+        "riwaya": "test",
         "name": "test2",
         "url": "https://archive.org/download/20230418_20230418_2015/-%20%D8%B3%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D9%82%D8%B5%D8%B5%20-.mp3"
       }
