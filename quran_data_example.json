@@ -7,7 +7,7 @@
     "tasnif": ["التجويد","النحو","مصطلح الحديث"],
     "theme": [
       {
-        "is_dark": false,
+        "is_dark": true,
         "background_color": "#FFFFFF",
         "on_background_color": "#FF49D1A",
         "secondary_background_color": "#FFF8E0B4",
